@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    background-color: rgb(61, 61, 204);
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+.cloud{
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 5%;
+    animation: myCloud 20s linear infinite;
+
+
+}
+@keyframes myCloud{
+from{
+    right: -100%;
+}
+to{
+    right: 100%;
+}
+}
+.logo{
+    width: 120px;
+    height: 120px;
+    margin-left: 130px;
+    margin-top: 20px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 1000px;
+  margin-top: -78px;
+    width: 350px;
+    color: white;
+    font-weight: bold;
+}
+.whitecircle{
+    background-color: rgb(247, 246, 246);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.fa-solid{
+color: rgb(10, 10, 89);
+font-size: 35px;
+
+}
+.fa-magnifying-glass{
+    font-size: 20px;
+    margin-top: 17px;
+    margin-left: 12px;
+    color: white;
+}
+.fa-location-dot{
+    font-size: 20px;
+    margin-top: 17px;
+    margin-left: 12px;
+    color: white;
+}
+.fa-globe{
+    font-size: 20px;
+    margin-top: 17px;
+    margin-left: 12px;
+    color: white;
+}
+h1{
+    width: 500px;
+    height: 120px;
+    margin-left: 130px;
+    margin-top: 90px;
+    color: white;
+}
+.mall{
+    margin-left: 413px;
+    margin-top: -160px;
+    width: 1100px;
+}
+.box{
+    width: 450px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: -450px;
+    margin-left: 130px;
+}
+.one{
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    height: 120px;
+    border-radius: 10px;
+    background-color: rgb(92, 84, 213);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.two{
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    height: 120px;
+    border-radius: 10px;
+    background-color: rgb(92, 84, 213);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.three{
+    width: 200px;
+    color: white;
+    font-weight: bold;
+    height: 120px;
+    border-radius: 10px;
+     background-color: rgb(92, 84, 213);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.four{
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    height: 120px;
+    border-radius: 10px;
+     background-color: rgb(92, 84, 213);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
